@@ -1,0 +1,58 @@
+body{
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #222;
+}
+
+.banner {
+    height: 75px;
+    margin: 0px -10px 10px;
+    background-color: rgb(66, 196, 247);
+    border-radius: 2px;
+}
+
+.banner h2{
+    color: white;
+    padding-top: 10px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.banner Img{
+    position: relative;
+    float: right;
+    right: 10px;
+    height: 75px;
+}
+
+.bpi-row .Title{
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.bpi-row .Title h3{
+    font-size: 1.75rem;
+    color: rgb(66, 196, 247);
+    border-bottom: rgb(216, 216, 216);
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.bpi-row {
+    border-radius: 5px;
+    border-width: 1px 1px 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: initial;
+    border-left-style: solid;
+    border-top-color: rgb(216, 216, 216);
+    border-right-color: rgb(216, 216, 216);
+    border-bottom-color: initial;
+    border-left-color: rgb(216, 216, 216);
+    border-image: initial;
+}
+.bpi-row .bpi .js-plotly-plot .plot-container .svg-container .modebar{
+    z-index: -100;
+}
