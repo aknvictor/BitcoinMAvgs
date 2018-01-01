@@ -17,8 +17,6 @@ def retrieve_current_price(endpoint):
 
     parsedTime = calendar.timegm(timetuple)
 
-    #conn.set(str(int(time.time())), {'updatedTime': int(parsedTime), 'QueryTime': int(time.time()), 'currentPrice': currentPrice} )
-    
     db = TinyDB('bpi.db')
     BPI = Query()
     db.insert({'updatedTime': int(parsedTime), 'QueryTime': int(time.time()), 'currentPrice': currentPrice})
