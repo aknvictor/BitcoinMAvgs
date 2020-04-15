@@ -16,7 +16,7 @@ dash==0.17.7
 dask==0.15.0
 decorator==4.0.11
 enum34==1.1.6
-Flask==0.12.2
+Flask==1.0
 Flask-Compress==1.4.0
 Flask-SeaSurf==0.2.2
 Flask-Caching==1.3.2
