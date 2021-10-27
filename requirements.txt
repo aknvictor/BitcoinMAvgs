@@ -13,7 +13,7 @@ dash-core-components==0.11.1
 dash-html-components==0.7.0
 dash-renderer==0.7.4
 dash==0.17.7
-dask==0.15.0
+dask==2021.10.0
 decorator==4.0.11
 enum34==1.1.6
 Flask==0.12.2
